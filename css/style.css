@@ -476,11 +476,460 @@ form {
 
 }
 
+/* СЕКЦТЯ 8 */
+
+.happy_text {
+    margin-top: 150px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.happy_text h4 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 0.04em;
+    line-height: 30px;
+    color: #ffffff;
+    
+}
+.happy_text img {
+    margin: 8px 0;
+} 
+.happy_text h2 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.03em;
+    line-height: 83px;
+    color: #DCCA87;
+
+}
+
+/* grid */
+.happy_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 150px;
+}
+.elem {
+    display: flex;
+    margin-bottom: 40px;
+}
+.grid_text {
+    max-width: 412px;
+    margin-left: 20px;
+}
+.grid_text p {
+    font-style: italic;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+
+}
+.grid_text h3 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 0.04em;
+    line-height: 42px;
+    color: #DCCA87;
+
+}
+.grid_text span {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    color: #AAAAAA;
+
+}
+/* СЕКЦИЯ 9 */
+.video {
+    height: 763px;
+    background: url(../img/Video.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+/* СЕКЦИЯ 10 */
+
+.food {
+    background: url(../img/BG.png);
+    height: 947px;
+
+}
+.food_img {
+    position: relative;
+}
+.food_img img {
+    position: absolute;
+    top: 130px;
+    right: 0;
+}
+/* text */
+.food_text h4 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: white;
+
+}
+.food_text {
+    padding-top: 245px;
+}
+.food_text img {
+    margin: 8px 0;
+}
+.food_text h2 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.03em;
+    line-height: 83px;
+    color: white;
+    margin-bottom: 60px;
+    color: #DCCA87;
+
+}
+/* food_grid */
+.food_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    gap: 15px;
+}
+.food_grid.elem {
+    display: flex;
+}
+.food_grid_text {
+    margin-left: 20px;
+}
+.food_grid_text h4 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 0.04em;
+    line-height: 30px;
+    color: #DCCA87;
+    padding-bottom: 8px;
+
+}
+.food_grid_text p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    color: #AAAAAA;
+
+}
+
+/* СЕКЦИЯ 11 */
+.blogs {
+    height: 1300px;
+    background: url(../img/wave\ element.png);
+}
+.blogs_text {
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+.blogs_text h4 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 0.04em;
+    line-height: 30px;
+    color: white;
+
+}
+.blogs_text img {
+    margin: 8px 0;
+}
+.blogs_text h2 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.03em;
+    line-height: 83px;
+    color: #DCCA87;
 
 
+}
+
+/* blogs_grid */
+.blogs_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+.blogs_elem {
+    height: 774px;
+    width: 412px;
 
 
+}
+.blogs_elem img {
+    margin-bottom: 25px;
+}
+.grid_block1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+}
+.grid_block1 p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    color: #FAFAFA;
 
+}
+.grid_block2 h3 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.04em;
+    line-height: 42px;
+    color: #DCCA87;
+    margin-bottom: 32px;
+
+}
+.grid_block2 p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    color: #AAAAAA;
+    padding-bottom: 32px;
+
+}
+.grid_block2 a {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    color: #DCCA87;
+    text-decoration: none;
+}
+.blogs_btn {
+    margin-top: 70px;
+    text-align: center;
+}
+/* СЕКЦИЯ 12 */
+
+.photo {
+    background: url(../img/BG.png);
+    height: 650px;
+    padding-top: 180px;
+}
+.photo-text {
+    max-width: 491px;
+   
+}
+.photo-text h4 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 0.04em;
+    line-height: 30px;
+    color: white;
+
+}
+.photo-text img {
+    margin: 8px 0;
+}
+.photo-text h2 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.03em;
+    line-height: 83px;
+    color: #DCCA87;
+    padding-bottom: 24px;
+}
+.photo-text p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    color: #AAAAAA;
+    padding-bottom: 25px;
+
+}
+.photo_elements {
+   display: flex;
+   gap: 20px;
+
+}
+/* СЕКЦИЯ 13 */
+
+.last {
+    height: 350px;
+    background: url(../img/wave\ element.png);
+
+}
+.content {
+    max-width: 100%;
+    height: 470px;
+    background: #0C0C0C;
+    border: 1px solid #DCCA8733;
+    box-shadow: 22px 30px 95px 1px #000000B2;
+    text-align: center;
+    position: relative;
+    z-index: 999;
+    top: 100px;
+
+}
+.last_one {
+    position: relative;
+}
+/* СЕКЦИЯ 14 */
+.footer {
+    background: url(../img/BG.png);
+    height: 900px;
+    padding-top: 500px;
+    
+}
+.content_text {
+    max-width: 780px;
+    text-align: center;
+    margin: 0 auto;
+}
+.content_text h4 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 0.04em;
+    line-height: 30px;
+    color: white;
+    margin-top: 65px;
+}
+.content_text img {
+    margin: 8px 0;
+}
+.content_text h2 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.03em;
+    line-height: 83px;
+    color: #DCCA87;
+    padding-bottom: 24px;
+
+}
+.content_text p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    color: white;
+    margin-bottom: 65px;
+
+}
+.form input {
+    height: 60px;
+    width: 635px;
+    background: transparent;
+    border: 1px solid #F5EFDB;
+    padding-left: 16px;
+    border-radius: 2px;
+    transition: 400ms;
+
+}
+.form input:hover {
+    height: 70px;
+    width: 655px;
+    background: #302716c8;
+}
+.form_btn {
+    display: inline;
+    padding-left: 32px;
+    height: 44px;
+    width: 129px;
+
+
+}
+.footer_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+}
+.footer_elem1 h3 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.04em;
+    line-height: 42px;
+    color: #F5EFDB;
+    padding-bottom: 25px;
+
+}
+.footer_elem1 p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    color: #AAAAAA;
+    margin-bottom: 8px;
+
+}
+.footer_elem2 h2 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 0.04em;
+    line-height: 83px;
+    color: #DCCA87;
+    margin-bottom: 32px;
+
+}
+.footer_elem2 p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    color: white;
+
+}
+.footer_elem2 img {
+    margin-top: 30px;
+}
+.footer_elem3 h3 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.04em;
+    line-height: 42px;
+    color: #F5EFDB;
+    padding-bottom: 25px;
+}
+.footer_elem3 p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    color: #AAAAAA;
+    margin-bottom: 8px;
+}
+.last_text3 {
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    color: #AAAAAA;
+
+}
 
 
 
