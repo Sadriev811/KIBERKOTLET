@@ -232,4 +232,82 @@ body {
     height: 470px;
     background: #0C0C0C;
     margin-top: 150px;
+    border: 1px solid #DCCA8733;
+    box-shadow: 22px 30px 95px 1px #000000B2;
+    text-align: center;
+
+}
+.book_text p {
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 0.04em;
+    line-height: 30px;
+    font-family: 'Cormorant Upright', serif;
+    margin-top: 48px;
+    margin-bottom: 8px;
+    color:#FFFFFF;
+}
+.book_text img {
+    margin-bottom: 8px;
+
+}
+.book_text h2 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.03em;
+    line-height: 83px;
+    color: #DCCA87;
+    margin-bottom: 65px;
+
+}
+form {
+    display: flex;
+    gap: 32px;
+    margin: 0 32px;
+
+}
+.book_input input {
+    height: 60px;
+    width: 412px;
+    background: transparent;
+    border: 1px solid #F5EFDB;
+    padding-left: 16px;
+    border-radius: 2px;
+    transition: 400ms;
+}
+.book_input input:hover {
+    height: 65px;
+    width: 420px;
+    background: #302716c8;
+}
+.btn_2 {
+    margin-top: 64px;
+}
+
+/* СЕКЦИЯ 5 */
+
+.bar {
+    background: url(../img/Group\ 90.png);
+    height: 900px;
+    max-width: 100%;
+    padding-top: 260px;
+    padding-left: 150px;
+}
+.bar_text a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.03em;
+    padding-bottom: 60px;
+    transition: 300ms;
+
+}
+.bar_text a:hover {
+    color: rgba(227, 195, 19, 0.912);
+    font-size: 67px;
+
 }
