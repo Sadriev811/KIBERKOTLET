@@ -70,14 +70,12 @@ body {
     color: #ffffff;
 }
 /* 1 Часть The key to Fine dining */
-.box {
-    display: flex;
-    margin-top: 80px;
-}
+
 .box-text {
     max-width: 450px;
     margin-right: 150px;
     margin-top: 100px;
+    margin-bottom: 200px;
 }
 .box-text h4 {
     font-family: 'Cormorant Upright', serif;
@@ -142,7 +140,12 @@ body {
     border-radius: 44px;
 }
 .box_img {
-    margin-bottom: 240px;
+    position: absolute;
+    right: 180px;
+    top: 130px;
+    height: 200px;
+    width: 500px;
+
 }
 /* Second section */
 .about {
@@ -217,4 +220,16 @@ body {
     display: flex;
     gap: 250px;
     
+}
+/* 333333333 СЕКЦИЯ 333333333 */
+.book {
+    background: url(../img/wave\ element.png);
+    height: 600px;
+    background-repeat: no-repeat;
+}
+.book_box {
+    max-width: 100%;
+    height: 470px;
+    background: #0C0C0C;
+    margin-top: 150px;
 }
