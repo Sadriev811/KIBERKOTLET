@@ -281,6 +281,9 @@ form {
     width: 420px;
     background: #302716c8;
 }
+.book_input {
+    flex-wrap: wrap;
+}
 .btn_2 {
     margin-top: 64px;
 }
@@ -670,7 +673,7 @@ form {
 }
 .blogs_elem {
     height: 774px;
-    width: 412px;
+    max-width: 412px;
 
 
 }
@@ -793,7 +796,6 @@ form {
 /* СЕКЦИЯ 14 */
 .footer {
     background: url(../img/BG.png);
-    height: 900px;
     padding-top: 500px;
     
 }
@@ -843,11 +845,7 @@ form {
     transition: 400ms;
 
 }
-.form input:hover {
-    height: 70px;
-    width: 655px;
-    background: #302716c8;
-}
+
 .form_btn {
     display: inline;
     padding-left: 32px;
