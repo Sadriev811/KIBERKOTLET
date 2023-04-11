@@ -1,0 +1,265 @@
+@media (max-width:1300px) {
+    .elem_img {
+        max-width: 390px;
+    }
+}
+
+@media (max-width:1200px) {
+    .container {
+        padding: 0 30px;
+    }
+    .elem_img {
+        max-width: 390px;
+    }
+    .first_bg_img h1 {
+        top: 380px;
+        left: 80px;
+        font-size: 140px;
+    }
+    .right {
+        display: none;
+    }
+    .table_book {
+        padding: 0 20px;
+    }
+    .elem img {
+        max-width: 450px;
+    }
+    .elem_text h2 {
+        font-size: 50px;
+    }
+    .about {
+        font-size: 15px;
+    }
+    .flex_img img {
+        max-width: 270px;
+    }
+    .seven_inp input {
+        width: 400px;
+    }
+    .Subscribe {
+        width: 130px;
+    }
+    .table_book_two {
+        margin-bottom: 50px;
+    }
+    .choose h2 {
+        margin-bottom: 40px;
+    }
+    .find_us {
+        font-size: 14px;
+    }
+}
+@media(max-width:992px) {
+    .first_bg_img img {
+        height: 700px;
+        max-width: 500px;
+    }
+    .first_bg_img h1 {
+        top: 380px;
+        left: 80px;
+        font-size: 100px;
+    }
+    .elem img {
+        display: none;
+    }
+    .four {
+        height: 1200px;
+    }
+    .flex_img {
+        flex-wrap: wrap;
+    }
+    .four_text h2 {
+        font-size: 58px;
+    }
+    .happy {
+        font-size: 80px;
+    }
+    .menu_img {
+        display: none;
+    }
+    .beer_coctail {
+        margin-right: 20px;
+    }
+    .six_image {
+        display: none;
+    }
+    .six_text {
+        margin: 0 auto;
+    }
+    .input_flex {
+        flex-wrap: wrap;
+    }
+    .table_book_two {
+        padding: 30px;
+    }
+    .seven_inp {
+        padding-left: 0px;
+    }
+    .last_gr {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .seven {
+        background: #000;
+    }
+}
+@media(max-width:768px) {
+    .left {
+        display: none;
+    }
+    .center {
+        margin: 0 auto;
+    }
+    .first_bg_img img {
+        height: 600px;
+        max-width: 400px;
+    }
+    .header {
+        margin-bottom: 30px;
+    }
+    .first_bg_img h1 {
+        top: 320px;
+        left: 50px;
+        font-size: 80px;
+    }
+    .table_book {
+        padding-top: 20px;
+    }
+    .image_grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .third {
+        padding-top: 50px;
+    }
+    .elem_img {
+    max-width: 450px;
+
+    }
+    .elem_text h2 {
+        font-size: 40px;
+    }
+    .four_text h2 {
+        font-size: 50px;
+    }
+    .four {
+        height: 1600px;
+    }
+    .happy {
+        font-size: 70px;
+    }
+    .flex_menu {
+        flex-wrap: wrap;
+        
+    }
+    .beer_coctail {
+        margin: 0 auto;
+    }
+    .table_book_two {
+        display: none;
+    }
+    .last_gr {
+        grid-template-columns: 1fr;
+
+    }
+
+@media(max-width:576px) {
+    .first_bg_img img {
+        height: 450px;
+        max-width: 250px;
+    }
+    .first_bg_img h1 {
+    top: 250px;
+    left: 20px;
+    font-size: 55px;
+    
+    }
+    .input {
+        flex-wrap: wrap;
+    }
+    .elem_img {
+        max-width: 300px;
+    }
+    .table_book {
+        height: 590px;
+    }
+    .happy {
+        font-size: 50px;
+    }
+    .choose h2 {
+        font-size: 40px;
+    }
+    .beer_coctail h3 {
+        font-size: 35px;
+        text-align: left;
+        
+    }
+    .beer_coctail {
+        text-align: center;
+    }
+    .six_text h2 {
+        font-size: 55px;
+    }
+    .last_gr {
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+
+     }
+     .container {
+        padding: 0 30px;
+    }
+    .center {
+        display: none;
+    }
+    span {
+        display: flex;
+        
+    }
+    .span {
+        margin: 0 250px;
+    }
+    .seven {
+        padding: 0px;
+    }
+}
+@media(max-width:360px) {
+    .span {
+        margin: 0 170px;
+    }
+    .first_bg_img img {
+        height: 380px;
+        max-width: 180px;
+    }
+    .first_bg_img h1 {
+        top: 190px;
+        left: 15px;
+        font-size: 40px;
+        
+    }
+    .text h2 {
+        font-size: 45px;
+    }
+    .elem_img {
+        max-width: 220px;
+    }
+    .elem_text h2 {
+        font-size: 30px;
+    }
+    .four_text h2 {
+        font-size: 30px;
+    }
+    .flex_img img {
+        max-width: 200px;
+    }
+    .fives {
+        display: none;
+    }
+    .four {
+        height: 1350px;
+    }
+    .seven {
+        padding: 0px;
+    }
+
+}
