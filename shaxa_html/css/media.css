@@ -160,7 +160,7 @@
         display: none;
     }
     .last_gr {
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
 
     }
 
