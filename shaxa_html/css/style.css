@@ -17,6 +17,10 @@
     display: flex;
     justify-content: space-between;
 }
+.header p:hover {
+    color: rgb(199, 193, 193);
+    text-decoration: underline;
+}
 .center {
     display: flex;
     gap: 15px;
@@ -78,15 +82,10 @@ font-style: normal;
 font-weight: 600;
 font-size: 64px;
 line-height: 130%;
-/* or 83px */
-
 text-align: center;
 letter-spacing: 0.03em;
 text-transform: capitalize;
 font-feature-settings: 'tnum' on, 'lnum' on;
-
-/* DCCA87 */
-
 color: #DCCA87;
 margin-bottom: 50px;
 }
@@ -96,15 +95,16 @@ font-style: normal;
 font-weight: 700;
 font-size: 23px;
 line-height: 130%;
-/* identical to box height, or 30px */
-
 letter-spacing: 0.04em;
 text-transform: capitalize;
 font-feature-settings: 'tnum' on, 'lnum' on;
-
-/* FFFFFF */
-
 color: #FFFFFF;
+}
+select {
+    width: 300px;
+    background-color: #0C0C0C;
+    border: 1px solid #F5EFDB;
+    padding: 0 10px;
 }
 .input {
     display: flex;
@@ -131,6 +131,7 @@ line-height: 175%;
 letter-spacing: 0.04em;
 display: block;
 margin: 60px auto;
+transition: 500ms;  
 }
 .third {
     background-image: url(../img/Mask\ Group.png);
@@ -151,9 +152,6 @@ line-height: 130%;
 letter-spacing: 0.03em;
 text-transform: capitalize;
 font-feature-settings: 'tnum' on, 'lnum' on;
-
-/* DCCA87 */
-
 color: #DCCA87;
 }
 .elem img{
@@ -179,11 +177,22 @@ font-weight: 700;
 font-size: 16px;
 line-height: 175%;
 letter-spacing: 0.04em;
-margin: 15px 0;
+margin: 20px 0;
+transition: 500ms;
+}
+button:hover {
+    border-radius: 40px;
+    scale: 1.3;
+    text-decoration: underline;
+}
+button:active {
+    color: rgb(12, 12, 12);
+    background-color: aqua;
+    border: none;
 }
 .four {
     height: 800px;
-    background-color: #0C0C0C;
+    background-color: #090808;
 }
 .poison {
 font-family: 'Cormorant Upright';
@@ -194,6 +203,7 @@ line-height: 130%;
 letter-spacing: 0.04em;
 text-transform: capitalize;
 color: #FFFFFF;
+margin-top: 30px;
 }
 .four_text {
     text-align: center;
@@ -205,40 +215,34 @@ color: #FFFFFF;
     font-weight: 600;
     font-size: 64px;
     line-height: 130%;
-    /* or 83px */
-    
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: capitalize;
     font-feature-settings: 'tnum' on, 'lnum' on;
-    
-    /* DCCA87 */
-    
     color: #DCCA87;
 }
 .flex_img {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 60px;
+    margin-top: 40px;
+}
+.flex_img img {
+    max-width: 300px;
 }
 .flex_img h2 {
     position: absolute;
-   right: 1150px;
-   margin-top: 280px;
+   right: 1060px;
+   margin-top: 200px;
    font-family: 'Cormorant Upright';
 font-style: normal;
 font-weight: 600;
 font-size: 45px;
 line-height: 130%;
-/* or 58px */
-
 text-align: center;
 letter-spacing: 0.04em;
 text-transform: capitalize;
 font-feature-settings: 'tnum' on, 'lnum' on;
-
-/* FFFFFF */
-
 color: #FFFFFF;
 }
 .fives {
@@ -254,15 +258,10 @@ color: #FFFFFF;
     font-weight: 600;
     font-size: 100px;
     line-height: 130%;
-    /* or 83px */
-    
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: capitalize;
     font-feature-settings: 'tnum' on, 'lnum' on;
-    
-    /* DCCA87 */
-    
     color: #DCCA87;
 }
 span {
@@ -292,8 +291,6 @@ span {
     line-height: 30px;
     font-family: 'Cormorant Upright', serif;
     color: white;
-    
-
 }
 .choose img {
     margin: 10px 0;
@@ -305,14 +302,12 @@ span {
     letter-spacing: 0.04em;
     line-height: 83px;
     color: #DCCA87;
-    
 }
 .menu_img {
     position: absolute;
     left: 550px;
     height: 659px;
     width: 380px;
-
 }
 .beer_coctail h3 {
     font-weight: 600;
@@ -323,7 +318,6 @@ span {
     padding-bottom: 50px;
     margin-left: 50px;
     font-family: 'Cormorant Upright', serif;
-
 }
 .beer_coctail p {
     font-family: 'Cormorant Upright', serif;
@@ -335,9 +329,7 @@ span {
     cursor: pointer;
     display: inline;
     padding-right: 32px;
-
 }
-
 .beer_coctail a {
     font-size: 16px;
     line-height: 28px;
@@ -347,13 +339,11 @@ span {
     text-decoration: none;
     display: block;
     margin-bottom: 41.5px;
-
 }
 .beer_coctail b {
     display: inline;
     color: white;
     font-weight: normal;
-    
 }
 .beer_coctail img {
     padding-right: 20px;
@@ -379,6 +369,175 @@ span {
     letter-spacing: 0.04em;
     display: block;
     margin: 0 auto;
+    transition: 500ms;
 }
-
-
+.six {
+    background-image: url(../img/Mask\ Group.png);
+    background-repeat: no-repeat;
+    height: 820px;
+}
+.six_flex {
+    display: flex;
+    justify-content: space-between;
+}
+.six_image img{
+    padding-top: 150px;
+   max-width: 450px;
+}
+.contact {
+    padding-top: 160px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.04em;
+color: #AAAAAA;
+}
+.six_text h2 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.04em;
+    line-height: 83px;
+    color: #DCCA87;
+    margin-bottom: 50px;
+}
+.find_us {
+    margin-bottom: 25px;
+}
+.open {
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #DCCA87;
+margin-bottom: 20px;
+}
+.date {
+    margin-bottom: 60px;
+}
+.visit {
+    background-color: #DCCA87;
+    padding: 8px 32px;
+    border: 1px solid #DCCA87;
+    color: #0C0C0C;
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.04em;
+margin: 15px 0;
+transition: 500ms;
+}
+.seven {
+    background-image: url(../img/Mask\ Group.png);
+    background-repeat: no-repeat;
+    padding: 100px
+}
+.table_book_two {
+    padding: 40px;
+    max-width:100% ; 
+     height:470px ;
+     background-color: #000000;
+     border: 1px solid #F5EFDB;
+     box-shadow: 22px 30px 95px 1px #0000;
+     align-items: center;
+}
+.input_flex{
+    margin-top: 40px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.seven_inp  {
+  padding-left: 80px;
+}
+.seven_inp input{
+    width: 600px;
+}
+.seven_btn {
+   display: flex;
+    align-items: center;
+}
+.Subscribe {
+    font-family: 'Cormorant Upright', serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #0C0B08;
+    height: 44px;
+    width: 157px;
+    border-radius: 2px;
+    background: #DCCA87;
+    border: 0;
+    transition: 500ms;
+}
+.last_gr {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+}
+.last_first h3{
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.04em;
+    line-height: 42px;
+    color: #F5EFDB;
+    padding-bottom: 25px;
+}
+.last_first p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    color: #AAAAAA;
+    margin-bottom: 8px;
+}
+.last_first a {
+    text-decoration: none;
+}
+.last_second h2{
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 0.04em;
+    line-height: 83px;
+    color: #DCCA87;
+    margin-bottom: 15px;
+}
+.last_second p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    color: rgb(146, 141, 141);
+    margin-bottom: 20px;
+}   
+.last_third h3{
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.04em;
+    line-height: 42px;
+    color: #F5EFDB;
+    padding-bottom: 25px;
+    margin-top: 25px;
+}
+.last_third p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    color: #AAAAAA;
+    margin-bottom: 8px;
+}
