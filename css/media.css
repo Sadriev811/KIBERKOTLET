@@ -198,6 +198,13 @@ font-size: 30px;
     .photo_img3 {
         display: none;
     }
+    span {
+        display: flex;
+        
+    }
+    .span {
+        margin-left: 400px;
+    }
 }
 @media(max-width:576px){
     .about_text {
