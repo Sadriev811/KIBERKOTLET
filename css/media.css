@@ -258,4 +258,8 @@ font-size: 30px;
         .footer_grid {
             grid-template-columns: repeat(1, 1fr);
         }
+        .span {
+            margin-left: 240px;
+
+        }
 }
