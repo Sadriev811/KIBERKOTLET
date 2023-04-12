@@ -140,6 +140,9 @@ font-size: 30px;
     .form input {
         width: 550px;
     }
+    #scrollTop {
+        display: none;
+    }
 }
 @media(max-width:768px) {
     .about_text1 h2 {
