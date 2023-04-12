@@ -577,3 +577,13 @@ span {
 .menu_1 a:hover {
     color: rgb(85, 0, 255);
 }
+#scrollTop:hover {
+    opacity: 1;
+}
+.isShowBtn {
+    opacity: 1;
+    transition: .4s;
+}
+.isShowBtn_hide {
+    opacity: 0;
+}
