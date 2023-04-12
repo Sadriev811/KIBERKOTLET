@@ -163,6 +163,7 @@
         grid-template-columns: 1fr;
 
     }
+}
 @media(max-width:576px) {
     .first_bg_img img {
         height: 450px;
