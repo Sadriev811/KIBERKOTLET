@@ -163,10 +163,6 @@
         grid-template-columns: 1fr;
 
     }
-    #scrollTop {
-        display: none;
-    }
-
 @media(max-width:576px) {
     .first_bg_img img {
         height: 450px;
